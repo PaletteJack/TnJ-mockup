@@ -3,7 +3,11 @@ import React from "react";
 export default function Navbar(props) {
   return (
     <div className="navbar">
-      <img id="Logo" src="/images/t&j.png" alt="Logo" />
+      <img
+        id="Logo"
+        src="https://uploads.codesandbox.io/uploads/user/64801fab-7364-4af7-aef2-d0667ac935ae/5Jmm-t&j.png"
+        alt="Logo"
+      />
       <div onClick={props.toggler} className="menuButton"></div>
       <ul id="nav-list" className={props.condition ? "show" : null}>
         <li className="list-item">

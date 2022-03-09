@@ -82,11 +82,11 @@ body {
 
 .content-contain {
   /* width: 32vw; */
-  left: 300px;
+  left: 18.75rem;
 }
 
 .content-contain-small {
-  left: -15px;
+  left: -15rem;
 }
 
 .content {
@@ -170,7 +170,7 @@ pre {
     top: 8.2rem;
   }
   .content-contain-small {
-    top: -30rem;
+    top: -15rem;
   }
   .tagline {
     margin: auto;
